@@ -1,0 +1,25 @@
+/*
+
+# Exclude every directory with `build` as name except ones under src/
+build/
+!src/**/build
+
+# Build Related
+!/gradle
+!/gradle.properties
+!/gradlew*
+!/*.gradle.kts
+.gradle/
+
+# BuildSrc
+!/buildSrc
+
+# Source
+!/src
+
+# Other
+!/.gitignore
+!/README.md
+!/LICENSE.txt
+!/.github
+!/assets
